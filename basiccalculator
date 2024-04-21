@@ -1,0 +1,19 @@
+a=input("enter the number: ")
+b=input("enter the second number: ")
+if a>b:
+    print("a is Greater than b")
+elif b>a:
+    print("b is greater than b")
+elif a==b:
+    print("a is equal to b")
+else:
+    print("invalid")
+print("1.add  2.sub")
+c=input("which arthimetic operation shouls i do ?")
+if c==add:
+    print(int(a+b))
+elif c==sub:
+    print(int(a-b))
+else:
+    print("invalid")
+
